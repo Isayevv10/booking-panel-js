@@ -401,6 +401,7 @@ body {
 
 .calendar-item-1 {
   flex: 50%;
+  padding-left: 15px;
 
   .month-navigation {
     display: flex;
@@ -434,6 +435,7 @@ body {
 .calendar-item-2 {
   flex: 50%;
   text-align: center;
+  padding-right: 15px;
   .header-time {
     margin-bottom: 17px;
   }
@@ -446,6 +448,7 @@ body {
 .calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+
   gap: 5px;
   max-width: 400px;
   margin: 0 auto;
