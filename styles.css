@@ -401,7 +401,7 @@ body {
 
 .calendar-item-1 {
   flex: 50%;
-  padding-left: 15px;
+  padding-left: 17px;
 
   .month-navigation {
     display: flex;
@@ -435,7 +435,8 @@ body {
 .calendar-item-2 {
   flex: 50%;
   text-align: center;
-  padding-right: 15px;
+  padding-right: 17px;
+
   .header-time {
     margin-bottom: 17px;
   }
