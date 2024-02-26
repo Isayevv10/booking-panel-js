@@ -37,7 +37,7 @@ const services = [
   },
 ];
 
-const dateData = ["2023-08-08", "2023-08-14", "2023-08-22"];
+const dateData = ["2023-03-04", "2023-03-05", "2023-03-06"];
 
 const timeSlots = [
   {
