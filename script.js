@@ -37,7 +37,7 @@ const services = [
   },
 ];
 
-const dateData = ["2024-03-04", "2024-03-05", "2024-03-06"];
+const dateData = ["2023-03-04", "2024-03-05", "2024-03-06"];
 
 const timeSlots = [
   {
@@ -89,7 +89,7 @@ form_container_1.innerHTML = mappedStaff.join(" ");
 let mappedServices = services.map((item) => {
   return `
             <div class="form_container-2-item" onclick="getServiceId('${item.id}','${item.name}','${item.price}')">
-              <div><img src="${item.image}"/></div>  
+              <div><img src="${item.image}"/></div>
               <div class="item-content">
                 <p>${item.name}</p>
                 <p>${item.duration}</p>
